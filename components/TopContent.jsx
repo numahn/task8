@@ -1,7 +1,7 @@
 import { getCurrentUser } from "../utils/data";
 import Image from "next/image";
 
-const { name, email, avatar } = getCurrentUser();
+const { name, avatar } = getCurrentUser();
 const TopContent = () => {
   return (
     <div className="w-96 h-12 text-5xl grid justify-items-center text-center leading-10 pt-7 mb-7 ">
